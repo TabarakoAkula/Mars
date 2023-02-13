@@ -22,17 +22,7 @@ def promotion():
 
 @app.route('/image_mars')
 def image():
-    return """<!doctype html>
-                <html lang="en">
-                  <head>
-                    <meta charset="utf-8">
-                    <title>Привет, Марс!</title>
-                  </head>
-                  <body>
-                    <h1>Жди нас, Марс!</h1>
-                    <img src="img/mars_image.png">
-                  </body>
-                </html>"""
+    return render_template('image_mars/image_mars.html')
 
 
 @app.route('/promotion_image')
