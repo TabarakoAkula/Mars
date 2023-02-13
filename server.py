@@ -30,5 +30,10 @@ def promotion_image():
     return render_template('promotion_image/index.html')
 
 
+@app.route('/astronaut_selection')
+def astronaut_selection():
+    return render_template('astronaut_selection/index.html')
+
+
 if __name__ == '__main__':
     app.run(port=8080, host='127.0.0.1', debug=True)
