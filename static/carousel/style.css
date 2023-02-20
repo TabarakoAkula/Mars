@@ -1,4 +1,4 @@
-.child {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+.carousel {
+  width:640px;
+  height:360px;
+}
